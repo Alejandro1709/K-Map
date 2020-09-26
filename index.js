@@ -8,7 +8,6 @@ let matrix = [
 for (var i = 0; i < matrix.length; i++) {
   var doc = document.createElement('div');
   doc.className = 'item-holder';
-  //   console.log(doc);
 
   for (var j = 0; j < matrix.length; j++) {
     doc.innerHTML += `<div class="item">${matrix[i][j]}</div>`;
